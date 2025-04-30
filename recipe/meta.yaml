@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-vertexai" %}
-{% set version = "0.39.4" %}
+{% set version = "0.40.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_vertexai-{{ version }}.tar.gz
-  sha256: 2429941e3dfd6d71454a0ad2ce9cfff13d57136f1b1b4f3c05c4cae77175e933
+  sha256: 298f226ae539807777ebc1e004cad48927870a1d3f1b344bcb4e7cb6d394e8e1
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - opentelemetry-api >=1.28.0,<2.0.0
     - opentelemetry-instrumentation >=0.50b0
     - opentelemetry-semantic-conventions >=0.50b0
-    - opentelemetry-semantic-conventions-ai 0.4.3
+    - opentelemetry-semantic-conventions-ai 0.4.5
 
 test:
   imports:
