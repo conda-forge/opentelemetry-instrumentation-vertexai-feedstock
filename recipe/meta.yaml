@@ -25,7 +25,7 @@ requirements:
     - opentelemetry-instrumentation >=0.50b0
     - opentelemetry-semantic-conventions >=0.50b0
     - opentelemetry-semantic-conventions-ai 0.4.10
-    - vertexai
+    - google-cloud-aiplatform
 
 test:
   imports:
