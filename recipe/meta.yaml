@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-vertexai" %}
-{% set version = "0.44.1" %}
+{% set version = "0.44.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_vertexai-{{ version }}.tar.gz
-  sha256: 94c4e9523da7e8868ca868f165b17c0886929e551a89e66e0728dc8f0aceefd5
+  sha256: 5b268a09adf4954d4a309191779fec614257b52109dc95c019bc0262ee5fc636
 
 build:
   noarch: python
