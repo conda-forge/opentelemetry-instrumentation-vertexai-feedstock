@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-vertexai
-  version: "0.63.0"
+  version: "0.63.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_vertexai-${{ version }}.tar.gz
-  sha256: a46e0e486cc8c26e6b6b749ff47c369adef9126817e99a273aeee993cb0bee25
+  sha256: 3ba6e228b23f62e772b7f1d52b5b05e14e2f8a762de2ee383fed548b94572f89
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
